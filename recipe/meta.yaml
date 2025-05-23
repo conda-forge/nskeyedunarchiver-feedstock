@@ -1,5 +1,5 @@
 {% set name = "nskeyedunarchiver" %}
-{% set version = "1.5" %}
+{% set version = "1.5.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NSKeyedUnArchiver-{{ version }}.tar.gz
-  sha256: eeda0480021817336e0ffeaca80377c1a8f08ecc5fc06be483b48c44bad414f4
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: eabece1756e8233501e9c465764498c5214e39d64e8e20f0a0f6860033126387
 
 build:
   number: 0
